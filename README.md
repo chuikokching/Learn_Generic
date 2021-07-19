@@ -1,2 +1,2 @@
-# Learn_Generic
+# Learn_Java
 For java learning.
