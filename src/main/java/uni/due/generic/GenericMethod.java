@@ -17,7 +17,7 @@ public class GenericMethod {
         GenericMethod b = new GenericMethod();
         System.out.println(b.printout(new Integer(100)));
         new GenericMethod().printout1(new Float(100.23));
-        //new GenericMethod().printout(new String("hello world"));
+        System.out.println(new GenericMethod().printout(new String("hello world")));
 
     }
 }

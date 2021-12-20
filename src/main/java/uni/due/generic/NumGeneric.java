@@ -21,6 +21,7 @@ public class NumGeneric <T> {
         NumGeneric <Integer> test = new NumGeneric<Integer>();
         test.setNum(10);
         System.out.println(test.getNum());
+        System.out.println(out());
 
         NumGeneric <Float> test1 = new NumGeneric<Float>();
         test1.setNum(11.f);
