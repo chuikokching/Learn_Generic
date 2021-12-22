@@ -7,6 +7,13 @@ import java.util.function.Predicate;
 
 
 /*函数式编程理念是将代码作为可重用数据代入到程序运行中*/
+
+/*
+* Predict接口使用
+*
+* 用于条件判断,固定返回boolean
+*
+* */
 public class PredictSample {
 
     public static void filter(List<Integer> list,Predicate<Integer> predicate)
