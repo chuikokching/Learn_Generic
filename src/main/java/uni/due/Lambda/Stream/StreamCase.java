@@ -31,7 +31,7 @@ public class StreamCase {
         System.out.println(newlist);
     }
 
-    //所有偶数从大到小排序，且不许重复出现
+    //所有偶数从大到小排序，且不许重复出现 filter()条件过滤
     @Test
     public void case3(){
         List<Integer> list = Arrays.asList(1,60,33,25,88,60,4,5,88,22,44,33,88);
@@ -39,7 +39,7 @@ public class StreamCase {
         System.out.println(newlist);
     }
 
-    //取余,去重,小到大
+    //取余,去重,小到大 map()对数据进行操作修改
     @Test
     public void case4(){
         List<Integer> list = Arrays.asList(1,60,33,25,88,60,4,5,88,22,44,33,88);
