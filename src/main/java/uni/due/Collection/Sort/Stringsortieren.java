@@ -1,28 +1,29 @@
-package uni.due.collection.Sort;
+package uni.due.Collection.Sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/*集合排序*/
-public class Intsortieren {
+public class Stringsortieren {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<Integer>();
-        list.add(5);
-        list.add(22);
-        list.add(3);
-        list.add(1);
-        list.add(88);
 
-        for(int n :list)
+        List<String> list = new ArrayList<String>();
+        list.add("Z");
+        list.add("F");
+        list.add("A");
+        list.add("B");
+        list.add("T");
+
+        for(String n :list)
             System.out.print(n+" ");
 
         System.out.println();
 
         //Sort() to sortieren
         Collections.sort(list);
-        for(int n :list)
+        for(String n :list)
             System.out.print(n+" ");
+
     }
 }

@@ -1,4 +1,4 @@
-package uni.due.collection.List;
+package uni.due.Collection.List;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package uni.due.collection.Sort.Comparable;
+package uni.due.Collection.Sort.Comparable;
 
 public class Goods implements Comparable<Goods> {
 

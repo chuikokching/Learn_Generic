@@ -1,4 +1,4 @@
-package uni.due.generic;
+package uni.due.Generic;
 
 public class Car extends Goods {
     public void sell() {

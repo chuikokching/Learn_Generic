@@ -1,8 +1,15 @@
-package uni.due.collection.Sort.Comparator;
+package uni.due.Collection.Sort.Comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+/*
+* Alternative:
+*
+* Collection.sort(list, (a,b) -> a.compareTo(b));
+*
+* */
 
 public class Test {
     public static void main(String[] args) {

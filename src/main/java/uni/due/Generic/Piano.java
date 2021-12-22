@@ -1,4 +1,4 @@
-package uni.due.generic;
+package uni.due.Generic;
 
 public class Piano extends Goods {
     public void sell() {

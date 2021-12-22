@@ -1,4 +1,4 @@
-package uni.due.generic;
+package uni.due.Generic;
 
 import java.util.List;
 

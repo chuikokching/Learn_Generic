@@ -1,4 +1,4 @@
-package uni.due.collection.Sort.Comparable;
+package uni.due.Collection.Sort.Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

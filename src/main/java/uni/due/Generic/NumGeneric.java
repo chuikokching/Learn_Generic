@@ -1,4 +1,4 @@
-package uni.due.generic;
+package uni.due.Generic;
 
 public class NumGeneric <T> {
     private T num;

@@ -1,4 +1,4 @@
-package uni.due.collection.Map;
+package uni.due.Collection.Map;
 
 public class Test {
 

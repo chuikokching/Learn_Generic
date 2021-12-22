@@ -1,4 +1,4 @@
-package uni.due.collection.Sort.Comparator;
+package uni.due.Collection.Sort.Comparator;
 
 public class Cat {
     private String name;
