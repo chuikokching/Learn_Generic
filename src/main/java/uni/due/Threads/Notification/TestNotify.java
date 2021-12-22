@@ -8,6 +8,11 @@ public class TestNotify {
     * */
 
     public static void main(String[] args) {
+        System.out.println("Hello World!!!!!!");
+        Queue queue = new Queue();
+        new Thread(new Producer(queue)).start();
+        new Thread(new Consumer(queue)).start();
+
 
     }
 }
