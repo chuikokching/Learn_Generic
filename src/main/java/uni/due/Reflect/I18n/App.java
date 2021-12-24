@@ -23,15 +23,17 @@ public class App {
             System.out.println(configPath + " : 第二次编码");
 
             pro.load(new FileInputStream(configPath));
-            String lan = pro.getProperty("language-cn"); //只需要修改传入的String参数即可修改实例化对象
+            String lan = pro.getProperty("language"); //只需要修改传入的String参数即可修改实例化对象
 
             Internationalization i18= (Internationalization) Class.forName(lan).newInstance();
             System.out.println(i18.say());
 
-            lan = pro.getProperty("language-en");
+            /*lan = pro.getProperty("language-en");
 
             i18= (Internationalization) Class.forName(lan).newInstance();
-            System.out.println(i18.say());
+            System.out.println(i18.say());*/
+
+
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {

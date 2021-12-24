@@ -2,6 +2,12 @@ package uni.due.Reflect.Entity;
 
 public class ClassSample {
 
+
+    /*
+    * 反射核心:运行时动态访问类和对象
+    *
+    * */
+
     public static void main(String[] args) {
         try {
             //Class.forName()方法将指定的类加载到jvm,并返回对应Class对象
