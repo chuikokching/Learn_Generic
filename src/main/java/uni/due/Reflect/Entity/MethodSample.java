@@ -22,8 +22,12 @@ public class MethodSample {
                     Float.class
             });
 
+            Method med1 = employeeClazz.getMethod("getSalary");
+
+
             Employee emp1 =(Employee)med.invoke(emp, new Object[]{1000f});
             System.out.println(emp1);
+            System.out.println(med1.invoke(emp));
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

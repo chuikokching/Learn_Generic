@@ -24,7 +24,7 @@ public class FieldSample {
             });
 
 
-            Field fe = employeeClazz.getField("ename");
+            Field fe = employeeClazz.getField("ename"); //只能获取public的成员变量的值
 
             System.out.println((String)fe.get(emp));
             fe.set(emp,"CKC");
@@ -38,7 +38,7 @@ public class FieldSample {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
-        } catch (NoSuchFieldException e) { //只能获取public的成员变量 获取private要使用declare
+        } catch (NoSuchFieldException e) { //只能获取public的成员变量的值 获取private要使用declare
             e.printStackTrace();
         }
     }
